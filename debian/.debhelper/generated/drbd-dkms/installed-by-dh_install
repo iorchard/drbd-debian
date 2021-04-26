@@ -1,0 +1,10 @@
+./drbd
+./drbd
+./debian/changelog
+./debian/control
+./debian/compat
+./debian/copyright
+./debian/control.modules.in
+./debian/drbd-module-_KVERS_.postinst.modules.in
+./debian/drbd-module-_KVERS_.postrm.modules.in
+./debian/rules

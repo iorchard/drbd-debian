@@ -1,0 +1,21 @@
+Package: drbd-dkms
+Source: drbd
+Version: 9.0.28-1
+Architecture: all
+Maintainer: DRBD dev <drbd-dev@lists.linbit.com>
+Installed-Size: 4356
+Depends: debhelper (>= 7), dkms (>= 2.1.0.0), drbd-utils (>= 9.2.0), curl
+Conflicts: drbd-module-source, drbd8-module-source
+Replaces: drbd-module-source
+Provides: drbd-dkms
+Section: admin
+Priority: extra
+Homepage: http://www.drbd.org
+Description: RAID 1 over TCP/IP for Linux module source
+ DRBD is a block device which is designed to build high availability
+ clusters by providing a virtual shared device which keeps disks in
+ nodes synchronised using TCP/IP. This simulates RAID 1 but avoiding
+ the use of uncommon hardware (shared SCSI buses or Fibre Channel).
+ It is currently limited to fail-over HA clusters.
+ .
+ This package contains the source code for the DRBD kernel module.
